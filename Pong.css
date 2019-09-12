@@ -1,0 +1,153 @@
+
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* font-family: 'Orbitron', sans-serif; */
+  font-family: 'Press Start 2P', cursive;
+}
+
+input{
+	/* font-family: 'Orbitron', sans-serif; */
+	font-family: 'Press Start 2P', cursive;
+}
+
+canvas{
+	border: solid black 1px;
+}
+
+body{
+	margin:0px;
+}
+#mat{
+	border: 0px solid;
+	margin: 0;
+    padding: 0;
+}
+
+.scoreBoard{
+	position: absolute;
+	transform: translateX(-50%);
+	
+	color: rgba(119, 119, 119, 0.5);
+	font-size: 48px;
+	z-index: 5;
+}
+
+#playerOneScore{
+	left:25%;
+}
+
+#playerTwoScore{
+	left:75%;
+}
+
+.mainPage{
+	background-color: black;
+	color: white;
+	
+	width: 40%;
+	/* height: 40%; */
+	
+	padding: 30px;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.mainTitle{
+	margin-top: 0px;	
+}
+
+button{
+	/* font-family: 'Orbitron', sans-serif; */
+	font-family: 'Press Start 2P', cursive;
+	
+	background-color: black;
+	color: white;
+	
+	border: solid 3px white;	
+}
+
+.startButton{	
+	display: block;
+	
+    width: 130px;
+	height: 50px;
+	
+	position: absolute;
+	left: 50%;
+	bottom: 3%;
+	transform: translateX(-50%);
+}
+
+.startButton:hover{
+	background-color: white;
+	color: black;	
+}
+
+.playUntil{
+	display: inline;
+}
+
+.playPar{
+	display: inline;
+}
+
+.playMes{
+	margin-bottom: 60px;
+}
+
+.Ctrls{
+	width: 100%;
+	height: 100px;
+	/* background-color: green; */
+	position: relative;
+	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	
+	padding-top: 15px;
+	
+	border: solid 3px white
+}
+
+.playerOneCtrl{
+	position: absolute;
+	display: inline;
+	left: 3%;
+}
+
+.playerTwoCtrl{
+	position: absolute;
+	display: inline;
+	right: 3%;	
+}
+
+.Q, .S, .P, .L{
+	width: 40px;
+	height: 40px;
+}
+
+.S, .L{
+	transform: translateY(45px);
+}
+
+.inst{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
